@@ -1,6 +1,6 @@
 <!-- Service Section - Start
         ================================================== -->
-        <section class="service_section_2" style="background-image: url('assets/images/shapes/shape_7.svg');">
+        <section id="myServices" class="service_section_2" style="background-image: url('assets/images/shapes/shape_7.svg');">
           <div class="container">
           <div class="section_heading style_4 text-center">
               <h2 class="heading_subtitle text-uppercase">
@@ -13,8 +13,15 @@
             <div class="common_carousel_4col row" data-slick='{"arrows": false}'>
               <div class="carousel_item col">
                 <div class="service_item style_4 bg-white">
-                  <div class="item_icon" style="background-image: url('assets/images/shapes/shape_color_1.svg');">
-                    <img src="assets/images/icons/icon_code_5.svg" alt="Kodes House Icon">
+                  <div class="item_icon" >
+                    <!-- <img src="assets/images/icons/icon_code_5.svg" alt="Kodes House Icon"> -->
+                    <lord-icon
+                        src="https://cdn.lordicon.com/nobciafz.json"
+                        trigger="loop"
+                        delay="2000"
+                        colors="primary:#5355df,secondary:#242424"
+                        style="width:350px;height:95px">
+                    </lord-icon>
                   </div>
                   <div class="item_content">
                     <h3 class="item_title">
@@ -33,8 +40,15 @@
               </div>
               <div class="carousel_item col">
                 <div class="service_item style_4 bg-white">
-                  <div class="item_icon" style="background-image: url('assets/images/shapes/shape_color_2.svg');">
-                    <img src="assets/images/icons/icon_house_2.svg" alt="Kodes House Icon">
+                  <div class="item_icon" style="">
+                    <!-- <img src="assets/images/icons/icon_house_2.svg" alt="Kodes House Icon"> -->
+                    <lord-icon
+                        src="https://cdn.lordicon.com/rwotyanb.json"
+                        trigger="loop"
+                        delay="2000"
+                        colors="primary:#5355df,secondary:#242424"
+                        style="width:350px;height:95px">
+                    </lord-icon>
                   </div>
                   <div class="item_content">
                     <h3 class="item_title">
@@ -138,90 +152,10 @@
                   </div>
                   <div class="item_content">
                     <h3 class="item_title">
-                      Content Management
-                    </h3>
-                    <p class="item_description">
-                      We provide efficient content management systems that enable easy website updates and seamless content organization.
-                    </p>
-                  </div>
-                  <a class="item_details_btn" href="service_details.html" data-magnetic data-cursor="-opaque">
-                    <span class="btn_icon">
-                      <img src="assets/images/icons/icon_arrow_down_right_dark_2.svg" alt="Kodes House icons">
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <div class="carousel_item col">
-                <div class="service_item style_4 bg-white">
-                  <div class="item_icon" style="background-image: url('assets/images/shapes/shape_color_5.svg');">
-                    <img src="assets/images/icons/icon_camera_2.svg" alt="Kodes House Icon">
-                  </div>
-                  <div class="item_content">
-                    <h3 class="item_title">
-                      Strategic Marketing
-                    </h3>
-                    <p class="item_description">
-                      Our strategic marketing services help businesses develop effective marketing strategies and achieve their goals.
-                    </p>
-                  </div>
-                  <a class="item_details_btn" href="service_details.html" data-magnetic data-cursor="-opaque">
-                    <span class="btn_icon">
-                      <img src="assets/images/icons/icon_arrow_down_right_dark_2.svg" alt="Kodes House icons">
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <div class="carousel_item col">
-                <div class="service_item style_4 bg-white">
-                  <div class="item_icon" style="background-image: url('assets/images/shapes/shape_color_5.svg');">
-                    <img src="assets/images/icons/icon_camera_2.svg" alt="Kodes House Icon">
-                  </div>
-                  <div class="item_content">
-                    <h3 class="item_title">
                       Video Editing
                     </h3>
                     <p class="item_description">
                       We offer professional video editing services that enhance your visual content and engage your audience effectively.
-                    </p>
-                  </div>
-                  <a class="item_details_btn" href="service_details.html" data-magnetic data-cursor="-opaque">
-                    <span class="btn_icon">
-                      <img src="assets/images/icons/icon_arrow_down_right_dark_2.svg" alt="Kodes House icons">
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <div class="carousel_item col">
-                <div class="service_item style_4 bg-white">
-                  <div class="item_icon" style="background-image: url('assets/images/shapes/shape_color_6.svg');">
-                    <img src="assets/images/icons/icon_code_4.svg" alt="Kodes House Icon">
-                  </div>
-                  <div class="item_content">
-                    <h3 class="item_title">
-                      Business Consulting
-                    </h3>
-                    <p class="item_description">
-                      We provide valuable insights and strategies through our business consulting services to help businesses achieve growth and success.
-                    </p>
-                  </div>
-                  <a class="item_details_btn" href="service_details.html" data-magnetic data-cursor="-opaque">
-                    <span class="btn_icon">
-                      <img src="assets/images/icons/icon_arrow_down_right_dark_2.svg" alt="Kodes House icons">
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <div class="carousel_item col">
-                <div class="service_item style_4 bg-white">
-                  <div class="item_icon" style="background-image: url('assets/images/shapes/shape_color_7.svg');">
-                    <img src="assets/images/icons/icon_idea_3.svg" alt="Kodes House Icon">
-                  </div>
-                  <div class="item_content">
-                    <h3 class="item_title">
-                      Social Media Marketing
-                    </h3>
-                    <p class="item_description">
-                      We create impactful social media campaigns to increase brand visibility, engage your audience, and drive conversions.
                     </p>
                   </div>
                   <a class="item_details_btn" href="service_details.html" data-magnetic data-cursor="-opaque">

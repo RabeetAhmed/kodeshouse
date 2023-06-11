@@ -6,25 +6,58 @@
 
         <!-- Page Section - Start
         ================================================== -->
-        <section class="page_banner text-center">
-          <div class="container decoration_wrap">
-            <h1 class="page_title">About Us</h1>
-            <ul class="breadcrumb_nav unordered_list_center">
-              <li><a href="index-2.html">Home</a></li>
-              <li>About Us</li>
-            </ul>
-
-            <div class="deco_item shape_1 wow fadeInUp" data-wow-delay=".1s">
-              <img src="assets/images/shapes/shape_circle_1.svg" data-parallax='{"y" : -140, "smoothness": 10}' alt="Kodes House - Shape Image">
+        <section class="page_banner">
+    <div class="container decoration_wrap">
+    <div class="row align-items-center">
+              <div class="col col-lg-6">
+                <div class="banner_content_6 mb-5 mb-lg-0">
+                  <h1 class="d-flex gazpacho">
+                   About <lord-icon src="https://cdn.lordicon.com/tkgyrmwc.json" trigger="loop" colors="primary:#5355df,secondary:#5355df" style="width:50px;height:50px"> </lord-icon> Kodes House
+                  </h1>
+                  <p class="my-4">Welcome to Kodes House, a creative powerhouse dedicated to turning your digital dreams into reality. We are a passionate team of professionals who thrive on pushing the boundaries of creativity and technology to deliver exceptional online experiences for our clients.</p>
+                  <ul class="btns_group unordered_list">
+                    <li>
+                      <a href="contact.html" class="bd-btn-link btn_primary">
+                        <span class="bd-button-content-wrapper">
+                           <span class="bd-button-icon">
+                            <i class="fa-light fa-arrow-right-long"></i>
+                           </span>
+                           <span class="pd-animation-flip">
+                              <span class="bd-btn-anim-wrapp">
+                                 <span class="bd-button-text">Start Cooperation</span>
+                                 <span class="bd-button-text">Start Cooperation</span>
+                              </span>
+                           </span> 
+                        </span>
+                     </a>
+                    </li>
+                    <li>
+                      <a href="about.html" class="bd-btn-link outline-dark">
+                        <span class="bd-button-content-wrapper">
+                           <span class="bd-button-icon">
+                            <i class="fa-light fa-arrow-right-long"></i>
+                           </span>
+                           <span class="pd-animation-flip">
+                              <span class="bd-btn-anim-wrapp">
+                                 <span class="bd-button-text">Learn More</span>
+                                 <span class="bd-button-text">Learn More</span>
+                              </span>
+                           </span> 
+                        </span>
+                     </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col col-lg-6">
+                <div class="hero_banner_image wow fadeInUp" data-wow-delay=".2s">
+                <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_450hEfBjlr.json"
+                  background="transparent" speed="1" style="height : 500px " loop autoplay></lottie-player>
+                </div>
+              </div>
             </div>
-            <div class="deco_item shape_2 wow rotateInDownRight" data-wow-delay=".1s">
-              <img src="assets/images/shapes/shape_circle_half_1.svg" data-parallax='{"y" : 200, "smoothness": 10}' alt="Kodes House - Shape Image">
-            </div>
-            <div class="deco_item shape_3 wow fadeInDown">
-              <img src="assets/images/shapes/shape_1.svg" data-parallax='{"x" : -200, "smoothness": 10}' alt="Kodes House - Shape Image">
-            </div>
-          </div>
-        </section>
+    </div>
+  </section>
         <!-- Page Section - End
         ================================================== -->
 
@@ -219,6 +252,8 @@
         ================================================== -->
         <section class="about_section_2">
           <div class="video_widget rounded-0">
+          <!-- <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_450hEfBjlr.json"
+                  background="transparent" speed="1" style="width: 100%;" loop autoplay></lottie-player> -->
             <img src="assets/images/video/video_poster_image_1.jpg" alt="Kodes House Video Poster Image">
             <!-- <a class="video_play_icon popup_video" href="https://www.youtube.com/watch?v=7e90gBu4pas">
               <span class="icon_wrap" data-magnetic>

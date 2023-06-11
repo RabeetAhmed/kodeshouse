@@ -380,6 +380,37 @@
     ]
   });
 
+  $('.common_carousel_sixcol').slick({
+    dots: true,
+    speed: 1000,
+    arrows: true,
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 6,
+    slidesToScroll: 6,
+    pauseOnHover: true,
+    autoplaySpeed: 5000,
+    rtl: rtl_setting,
+    prevArrow: ".cc6c_left_arrow",
+    nextArrow: ".cc6c_right_arrow",
+    responsive: [
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    }
+    ]
+  });
+
   $('.common_carousel_centered').slick({
     dots: true,
     speed: 1000,

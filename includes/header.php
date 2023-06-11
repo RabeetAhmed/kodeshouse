@@ -40,19 +40,26 @@
 
     <!-- Custom - CSS Include -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- Lordicon Animated Icons -->
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+
+
     
+
+
   </head>
 
   <body>
 
     <!-- Preloder start -->
-    <div id="preloader">
+    <!-- <div id="preloader">
       <div class="sk-three-bounce">
           <div class="sk-child sk-bounce1"></div>
           <div class="sk-child sk-bounce2"></div>
           <div class="sk-child sk-bounce3"></div>
       </div>
-    </div>
+    </div> -->
     <!-- Preloder start -->
 
     <!-- Offcanvas area start -->
@@ -125,20 +132,16 @@
                       </li>
 
                        <li class="has-dropdown">
-                          <a href="services.php">Services</a>
+                          <a>Services</a>
                           <ul class="submenu">
                             <li><a href="website-design-and-development.php">Website Design & Development</a></li>
-                            <li><a href="">UX/UI Design</a></li>
-                            <li><a href="">Graphics Designing</a></li>
-                            <li><a href="">Mobile Application Development</a></li>
-                            <li><a href="">Search Engine Optimization (SEO)</a></li>
-                            <li><a href="">Digital Marketing</a></li>
-                            <li><a href="">Content Management</a></li>
-                            <li><a href="">Strategic Marketing</a></li>
-                            <li><a href="">Video Editing</a></li>
-                            <li><a href="">Business Consulting</a></li>
-                            <li><a href="">Social Media Marketing</a></li>
-                            <li><a href="">Content Writing</a></li>
+                            <li><a href="ui-ux.php">UX/UI Design</a></li>
+                            <li><a href="graphics-designing.php">Graphics Designing</a></li>
+                            <li><a href="mobile-app-development.php">Mobile Application Development</a></li>
+                            <li><a href="seo-optimization.php">Search Engine Optimization (SEO)</a></li>
+                            <li><a href="digital-marketing.php">Digital Marketing</a></li>
+                            <li><a href="video-editing.php">Video Editing</a></li>
+                            <li><a href="content-writing.php">Content Writing</a></li>
                           </ul>
                         </li>
 

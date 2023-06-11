@@ -1,49 +1,73 @@
-<!-- Call to Action Section - Start
-        ================================================== -->
-        <section class="calltoaction_section style_4 section_space_lg bg_primary decoration_wrap">
+<section class="about_section section_space_lg pt-5 mt-5">
           <div class="container">
-            <div class="row align-items-center">
-              <div class="col col-lg-6 order-last">
-                <div class="cta_image">
-                  <img src="assets/images/calltoaction/cta_image_4.png" alt="Paradox Call To Action Image">
+            <div class="row align-items-center justify-content-lg-between">
+              <div class="col col-xxl-6 col-xl-6 col-lg-6 order-lg-last">
+                <div class="about_image decoration_wrap mb-4 mb-lg-0 text-center">
+                  <center>
+                    <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_v1yudlrx.json"
+                    background="transparent" speed="1" style="width: 100%;" loop autoplay></lottie-player>
+                  </center>
                 </div>
               </div>
-              <div class="col col-lg-6">
-                <div class="calltoaction_wrapper mb-4 mb-lg-0">
-                  <div class="section_heading text-white">
-                    <h2 class="heading_title mb-0">
-                      Subscribe to Paradox Newsletter
+              <div class="co col-xxl-5  col-xl-6 col-lg-6">
+                <div class="about_content">
+                  <div class="section_heading mb-5">
+                    <h2 class="heading_subtitle text-uppercase">
+                      <span class="double_icon">
+                        <i class="fas fa-sharp fa-square-full"></i>
+                        <i class="fas fa-sharp fa-square-full"></i>
+                      </span>
+                      <span>Get In Touch</span>
                     </h2>
+                    <h3 class="heading_title">
+                      Subscribe to Kodes House Newsletter
+                    </h3>
+                    <p class="heading_description mb-0">
+                      Our action plan is focused and planned. We are result oriented organization and are committed.
+                    </p>
                   </div>
-                  <div class="form-group m-0 subscribe_form is-cta">
-                    <label for="input_email_2" class="form-label">
-                      <i class="fas fa-envelope"></i>
-                    </label>
-                    <input id="input_email_2" class="form-control" type="email" name="email" placeholder="Enter your Email Address">
-                    <button type="submit" class="bd-btn-link btn_warning">
-                      <span class="bd-button-content-wrapper">
-                        <span class="bd-button-icon">
-                         <i class="fa-light fa-arrow-right-long"></i>
-                        </span>
-                        <span class="pd-animation-flip">
-                           <span class="bd-btn-anim-wrapp">
-                              <span class="bd-button-text">Subscribe Now</span>
-                              <span class="bd-button-text">Subscribe Now</span>
+                  <div class="subscribe_form_2">
+                    <form action="#">
+                      <div class="row">
+                        <div class="col col-md-6">
+                          <div class="form-group m-0">
+                            <label class="input_icon"><i class="fas fa-user"></i></label>
+                            <input class="form-control" type="text" name="fullname" placeholder="Full Name">
+                          </div>
+                        </div>
+                        <div class="col col-md-6">
+                          <div class="form-group m-0">
+                            <label class="input_icon"><i class="fas fa-phone"></i></label>
+                            <input class="form-control" type="number" name="phone" placeholder="Phone Number">
+                          </div>
+                        </div>
+                        <div class="col col-md-12">
+                          <div class="form-group m-0">
+                            <label class="input_icon"><i class="fas fa-message"></i></label>
+                            <input class="form-control" type="email" name="email" placeholder="Email Address">
+                          </div>
+                        </div>
+                        <div class="col">
+                          <button type="submit" class="bd-btn-link btn_primary">
+                            <span class="bd-button-content-wrapper">
+                              <span class="bd-button-icon">
+                               <i class="fa-light fa-arrow-right-long"></i>
+                              </span>
+                              <span class="pd-animation-flip">
+                                 <span class="bd-btn-anim-wrapp">
+                                    <span class="bd-button-text">Subscribe Now</span>
+                                    <span class="bd-button-text">Subscribe Now</span>
+                                 </span>
+                              </span> 
                            </span>
-                        </span> 
-                     </span>
-                    </button>
+                          </button>
+                          <div class="alert_text">*We will Notify only on Major Update</div>
+                        </div>
+                      </div>
+                    </form>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="deco_item shape_1">
-            <img class="wow fadeInLeft" data-wow-delay=".2s" src="assets/images/shapes/shape_2.svg" alt="Paradox Illustration Image">
-          </div>
-          <div class="deco_item shape_2">
-            <img class="wow fadeInRight" data-wow-delay=".2s" src="assets/images/shapes/shape_3.svg" alt="Paradox Illustration Image">
-          </div>
         </section>
-        <!-- Call to Action Section - End
-        ================================================== -->

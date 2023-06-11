@@ -11,13 +11,17 @@
             <div class="row align-items-center">
               <div class="col col-lg-6 order-last">
                 <div class="hero_banner_image decoration_wrap">
-                  <img class="banner_main_1" src="assets/images/banner/hero_banner_image_1.png" alt="Kodes House Illustration Image">
+                <!-- <lottie-player class="" src="https://assets3.lottiefiles.com/packages/lf20_ck2flegw.json"
+                  background="transparent" speed="1" style="width: 100%;" loop autoplay></lottie-player> -->
+                  <img class="banner_main_1" src="assets/images/myimages/hero.png" alt="Kodes House Illustration Image">
                   <div class="deco_item shape_3"></div>
                   <div class="deco_item shape_4 wow rotateInDownRight" data-wow-delay=".2s">
-                    <img src="assets/images/shapes/shape_circle_half_1.svg" data-parallax='{"y" : 200, "smoothness": 10}' alt="Kodes House Shape Image">
+                  <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_x62chJ.json"
+                    background="transparent" speed="1" style="width: 100%;" loop autoplay></lottie-player>
                   </div>
                   <div class="deco_item shape_5 wow zoomIn" data-wow-delay=".3s">
-                    <img src="assets/images/shapes/shape_circle_2.svg" alt="Kodes House Shape Image">
+                  <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_usmfx6bp.json"
+                    background="transparent" speed="1" style="width: 100%;" loop autoplay></lottie-player>
                   </div>
                   <div class="deco_item shape_6">
                     <img src="assets/images/shapes/shape_circle_half_2.svg" alt="Kodes House Shape Image">
@@ -34,7 +38,7 @@
                       </span>
                       <span>Welcome to Kodes House</span>
                     </h2>
-                    <h3 class="heading_title">
+                    <h3 class="heading_title gazpacho">
                       Unlocking Your Creative  <span><img class="focus_text" src="assets/images/shapes/shape_line.svg" alt=""> Potential</span>
                     </h3>
                     <p class="heading_description mb-0">
@@ -43,7 +47,7 @@
                   </div>
                   <ul class="btns_group unordered_list">
                     <li>
-                      <a href="contact.html" class="bd-btn-link btn_primary">
+                      <a href="#myServices" class="bd-btn-link btn_primary">
                         <span class="bd-button-content-wrapper">
                            <span class="bd-button-icon">
                             <i class="fa-light fa-arrow-right-long"></i>
@@ -116,7 +120,9 @@
             <div class="row align-items-center">
               <div class="col col-lg-6 order-last order-lg-first">
                 <div class="about_image decoration_wrap text-center">
-                  <img class="amin-up-down" src="assets/images/about/about_image_1.png" alt="Kodes House - About Image">
+                <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_5nfzewj1/MarketingAutomationViralMethods.json"
+                  background="transparent" speed="1" style="width: 100%;" loop autoplay></lottie-player>
+                  <!-- <img class="amin-up-down" src="assets/images/about/about_image_1.png" alt="Kodes House - About Image"> -->
                 </div>
               </div>
               <div class="col col-lg-6">
@@ -176,12 +182,12 @@
                         </span>
                         <span class="list_item_text">Data-Driven Strategies</span>
                       </li>
-                  </ul>
+                    </ul>
                   </div>
                   <div class="btn_wrap pb-0">
                     <ul class="btns_group unordered_list">
                       <li>
-                        <a href="about.html" class="bd-btn-link btn_primary">
+                        <a href="about.php" class="bd-btn-link btn_primary">
                           <span class="bd-button-content-wrapper">
                              <span class="bd-button-icon">
                               <i class="fa-light fa-arrow-right-long"></i>
@@ -224,9 +230,7 @@
               </div>
             </div>
           </div>
-          <div class="deco_item shape_2">
-            <img src="assets/images/shapes/shape_circle_half_3.svg" alt="Kodes House Shape Image">
-          </div>
+          
         </section>
         <!-- About Section - End
         ================================================== -->
@@ -247,7 +251,7 @@
                         <i class="fas fa-sharp fa-square-full"></i>
                         <i class="fas fa-sharp fa-square-full"></i>
                       </span>
-                      <span>Why Chose Us</span>
+                      <span>Why Choose Us</span>
                     </h2>
                     <h3 class="heading_title mb-0">
                       Moving Up to a Higher and Enhanced Level
@@ -309,7 +313,7 @@
                   </div>
                   <ul class="btns_group unordered_list">
                     <li>
-                      <a href="about.html" class="bd-btn-link btn_primary">
+                      <a href="javascript;" class="bd-btn-link btn_primary">
                         <span class="bd-button-content-wrapper">
                            <span class="bd-button-icon">
                             <i class="fa-light fa-arrow-right-long"></i>
@@ -336,10 +340,8 @@
               </div>
               <div class="col col-lg-5 col-xl-6">
                 <div class="about_image decoration_wrap mb-4 mb-lg-0 text-center">
-                  <img class="wow fadeInLeft amin-up-down" data-wow-delay=".1s" src="assets/images/about/about_image_1.png" alt="Kodes House - About Image">
-                  <div class="deco_item shape_1">
-                    <img class="wow zoomIn" data-wow-delay=".1s" src="assets/images/shapes/shape_circle_2.svg" alt="Kodes House - Shape Image">
-                  </div>
+                <lottie-player class="wow fadeInLeft" data-wow-delay=".1s" src="https://assets5.lottiefiles.com/packages/lf20_xynjnejl.json"
+                    background="transparent" speed="1" style="width: 100%;" loop autoplay></lottie-player>                  
                 </div>
               </div>
             </div>
@@ -750,132 +752,7 @@
 
 
         
-
-        <!-- Blog Section - Start
-        ================================================== -->
-        <section class="blog_section section_space_lg bg_light_3">
-          <div class="container">
-            <div class="section_heading text-center">
-              <h2 class="heading_subtitle">
-                <span class="double_icon">
-                  <i class="fas fa-sharp fa-square-full"></i>
-                  <i class="fas fa-sharp fa-square-full"></i>
-                </span>
-                <span>Blog</span>
-              </h2>
-              <h3 class="heading_title mb-0">
-                Our Latest Blogs 
-              </h3>
-            </div>
-
-            <div class="blog_grouped row">
-              <div class="col col-lg-4 col-md-6">
-                <div class="blog_item bg-white">
-                  <a class="item_image" href="blog_details.html" data-cursor-text="VIEW">
-                    <img src="assets/images/blogs/blog_image_5.jpg" alt="Kodes House Blog Image">
-                  </a>
-                  <div class="item_content">
-                    <div class="flex_wrap">
-                      <ul class="category_list unordered_list">
-                        <li><a href="#!">Business</a></li>
-                      </ul>
-                      <span class="post_date">24 OCT, 2023</span>
-                    </div>
-                    <h3 class="item_title">
-                      <a href="blog_details.html">
-                        Top 5 exciting mobile Apps statistics to know in 2023
-                      </a>
-                    </h3>
-                    <a class="btn-link" href="blog_details.html">
-                      <span class="btn_text">Read More</span>
-                      <span class="btn_icon">
-                        <img src="assets/images/icons/icon_arrow_down_right.svg" alt="Kodes House - Icon Arrow Down Right">
-                        <img src="assets/images/icons/icon_arrow_down_right_primary.svg" alt="Kodes House - Icon Arrow Down Right">
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col col-lg-4 col-md-6">
-                <div class="blog_item bg-white">
-                  <a class="item_image" href="blog_details.html" data-cursor-text="VIEW">
-                    <img src="assets/images/blogs/blog_image_4.jpg" alt="Kodes House Blog Image">
-                  </a>
-                  <div class="item_content">
-                    <div class="flex_wrap">
-                      <ul class="category_list unordered_list">
-                        <li><a href="#!">Business</a></li>
-                      </ul>
-                      <span class="post_date">24 OCT, 2023</span>
-                    </div>
-                    <h3 class="item_title">
-                      <a href="blog_details.html">
-                        How outsourcing will save your business during recession
-                      </a>
-                    </h3>
-                    <a class="btn-link" href="blog_details.html">
-                      <span class="btn_text">Read More</span>
-                      <span class="btn_icon">
-                        <img src="assets/images/icons/icon_arrow_down_right.svg" alt="Kodes House - Icon Arrow Down Right">
-                        <img src="assets/images/icons/icon_arrow_down_right_primary.svg" alt="Kodes House - Icon Arrow Down Right">
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col col-lg-4 col-md-6">
-                <div class="blog_item bg-white">
-                  <a class="item_image" href="blog_details.html" data-cursor-text="VIEW">
-                    <img src="assets/images/blogs/blog_image_12.jpg" alt="Kodes House Blog Image">
-                  </a>
-                  <div class="item_content">
-                    <div class="flex_wrap">
-                      <ul class="category_list unordered_list">
-                        <li><a href="#!">Business</a></li>
-                      </ul>
-                      <span class="post_date">24 OCT, 2023</span>
-                    </div>
-                    <h3 class="item_title">
-                      <a href="blog_details.html">
-                        Case study : About social media marketing platform
-                      </a>
-                    </h3>
-                    <a class="btn-link" href="blog_details.html">
-                      <span class="btn_text">Read More</span>
-                      <span class="btn_icon">
-                        <img src="assets/images/icons/icon_arrow_down_right.svg" alt="Kodes House - Icon Arrow Down Right">
-                        <img src="assets/images/icons/icon_arrow_down_right_primary.svg" alt="Kodes House - Icon Arrow Down Right">
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="btn_wrap pb-0 text-center">
-              <a href="blog.html" class="bd-btn-link btn_primary">
-                <span class="bd-button-content-wrapper">
-                   <span class="bd-button-icon">
-                    <i class="fa-light fa-arrow-right-long"></i>
-                   </span>
-                   <span class="pd-animation-flip">
-                      <span class="bd-btn-anim-wrapp">
-                         <span class="bd-button-text">View All Work</span>
-                         <span class="bd-button-text">View All Work</span>
-                      </span>
-                   </span> 
-                </span>
-             </a>
-            </div>
-          </div>
-        </section>
-        <!-- Blog Section - End
-        ================================================== -->
-
-
-        
+  
 
 
         <!-- About Section - Start
@@ -885,10 +762,10 @@
             <div class="row align-items-center justify-content-lg-between">
               <div class="col col-xxl-6 col-xl-6 col-lg-6 order-lg-last">
                 <div class="about_image decoration_wrap mb-4 mb-lg-0 text-center">
-                  <img src="assets/images/shapes/shape_circle_6.svg" alt="Kodes House - Shape Image">
-                  <div class="deco_item shape_3">
-                    <img class="wow fadeInRight amin-up-down" data-wow-delay=".1s" src="assets/images/about/about_image_4.png" alt="Kodes House - About Image">
-                  </div>
+                  <center>
+                    <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_v1yudlrx.json"
+                    background="transparent" speed="1" style="width: 100%;" loop autoplay></lottie-player>
+                  </center>
                 </div>
               </div>
               <div class="co col-xxl-5  col-xl-6 col-lg-6">

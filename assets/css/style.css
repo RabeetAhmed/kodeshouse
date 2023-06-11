@@ -92,6 +92,15 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+@font-face {
+  font-family: gazpacho;
+  src: url(../fonts/GazpachoBold.ttf);
+}
+
+.gazpacho{
+  font-family: gazpacho;
+}
+
 .page_wrapper {
   overflow: hidden;
   position: relative;
@@ -4815,8 +4824,8 @@ textarea.form-control {
   }
 }
 .hero_banner_section.style_1 .section_heading .heading_title {
-  font-size: 80px;
-  line-height: 1.2;
+  font-size: 65px;
+  line-height: 1;
   margin-bottom: 25px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 768px) and (max-width: 991px) {
